@@ -9,7 +9,7 @@
     /// <summary>
     /// Defines the <see cref="Generator" />.
     /// </summary>
-    internal class Generator
+    class Generator
     {
         /// <summary>
         /// Defines the syllabes present in file with names.
@@ -152,7 +152,7 @@
         /// Noty uses. It's just for testing.
         /// </summary>
         /// <param name="args">The args<see cref="string[]"/>.</param>
-        internal static void Main(string[] args)
+        static void Main(string[] args)
         {
             Generator g = new Generator();
             while (true)
